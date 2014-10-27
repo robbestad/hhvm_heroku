@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "56e5f09740562b234121ef960c40916f",
+    "hash": "c99bad23863d6407059190513003f169",
     "packages": [
         {
             "name": "guzzle/guzzle",
@@ -97,37 +97,6 @@
                 "web service"
             ],
             "time": "2014-08-11 04:32:36"
-        },
-        {
-            "name": "klarna/checkout",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/klarna/kco_php.git",
-                "reference": "571f5894ab5d991ddc022d53f54ab48db921e05d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/klarna/kco_php/zipball/571f5894ab5d991ddc022d53f54ab48db921e05d",
-                "reference": "571f5894ab5d991ddc022d53f54ab48db921e05d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.16"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Klarna": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Wrapper for the Klarna Checkout API",
-            "homepage": "http://integration.klarna.com",
-            "time": "2013-03-22 13:22:38"
         },
         {
             "name": "mailgun/mailgun-php",
@@ -232,6 +201,8 @@
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
-    "platform": [],
+    "platform": {
+        "php": "~5.6"
+    },
     "platform-dev": []
 }
