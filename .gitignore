@@ -1,6 +1,5 @@
 build
 .rvhash
-dist
 vendor
 bower_components
 Log
