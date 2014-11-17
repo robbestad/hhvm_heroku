@@ -1,0 +1,30 @@
+{
+  "name": "hhvm_heroku",
+  "version": "1.0.1",
+  "authors": [
+    "Sven Anders Robbestad <robbestad@gmail.com>"
+  ],
+  "description": "A template for HHVM on Heroku",
+  "main": "fist/index.php",
+  "keywords": [
+    "hhvm"
+  ],
+  "license": "Public",
+  "homepage": "http://www.robbestad.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "barekit": "~0.5.0",
+    "jquery": "~2.1.1",
+    "react": "~0.11.1",
+    "font-awesome": "~4.2.0",
+    "bootstrap": "~3.2.0"
+  }
+}

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cantarell Regular'), local('Cantarell-Regular'), url(http://fonts.gstatic.com/s/cantarell/v5/V86VyqXbc09Sss3BPsMj16CWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cantarell Bold'), local('Cantarell-Bold'), url(http://fonts.gstatic.com/s/cantarell/v5/Yir4ZDsCn4g1kWopdg-ehInF5uFdDttMLvmWuJdhhgs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cantarell';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Cantarell Oblique'), local('Cantarell-Oblique'), url(http://fonts.gstatic.com/s/cantarell/v5/Qd6zZq_wf1596L3V_8MIs50EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cantarell';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Cantarell Bold Oblique'), local('Cantarell-BoldOblique'), url(http://fonts.gstatic.com/s/cantarell/v5/weehrwMeZBXb0QyrWnRwFZ_TkvowlIOtbR7ePgFOpF4.ttf) format('truetype');
+}
