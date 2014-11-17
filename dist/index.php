@@ -4,15 +4,6 @@ Sure, I could use an MVC like Zend Framework 2 or Laravel,
 but... you don't always need the complexity.
 */
 require_once __DIR__.'/../vendor/autoload.php';
-require_once __DIR__.'/includes/sendmail.php';
-
-require_once 'includes/session.php';
-require_once 'includes/getconfig.php';
-require_once 'includes/xss.php';
-require_once 'includes/database.php';
-require_once 'includes/forceutf8.php';
-require_once __DIR__.'/language/nb_no.php';
-require_once 'includes/search.php';
 
 $page='';
 if(!empty($_GET["page"])) {
