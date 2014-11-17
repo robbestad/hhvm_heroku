@@ -1,6 +1,6 @@
 <header class="topbar">
     <nav class="width">
-        <a href="http://hhvm.com/"><h1>HHVM</h1></a>
+        <a href="#"><h3>HipHopVM on Heroku</h3></a>
 
         <div class="menu-top-menu-container">
             <ul id="menu-top-menu" class="menu">
