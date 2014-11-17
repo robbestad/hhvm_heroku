@@ -1,16 +1,16 @@
 {
-  "name": "rawshop",
+  "name": "hhvm_heroku",
   "version": "1.0.1",
   "authors": [
     "Sven Anders Robbestad <robbestad@gmail.com>"
   ],
-  "description": "Shop selling raw food and equiment",
-  "main": "Public_html/index.php",
+  "description": "A template for HHVM on Heroku",
+  "main": "fist/index.php",
   "keywords": [
-    "shop"
+    "hhvm"
   ],
-  "license": "Private",
-  "homepage": "http://www.rawshop.no",
+  "license": "Public",
+  "homepage": "http://www.robbestad.com",
   "private": true,
   "ignore": [
     "**/.*",
