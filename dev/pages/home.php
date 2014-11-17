@@ -24,7 +24,7 @@
                 <p>
                 This is a demo repo showing how you can get
                 up and running on HHVM with Heroku. <a href="http://www.robbestad.com/2014/11/adventures-in-hiphop-vm.html"
-                >Read more about it in this blog article</a> 
+                >Read this blog article</a> detailing how you get it running.
                 </p>
             
                 <?php
