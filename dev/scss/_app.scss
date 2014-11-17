@@ -1,3 +1,6 @@
+$clrbrown:#5d4037;
+$clrlime:#e6ee9c;
+
 * {
   padding: 0;
   margin: 0;
@@ -20,6 +23,7 @@ h1, h2, h3, h4 {
   color: #374665;
   font-weight: normal;
   margin: 1.5em 0 0.5em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif;
 }
 
 h1:first-child, h2:first-child, h3:first-child, h4:first-child {
@@ -35,7 +39,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.6em;
+  color: $clrbrown;
+  a:link{
+    color:$clrbrown;
+  }
 }
 
 h4 {
@@ -93,23 +101,11 @@ header:after, section.content:after, footer:after {
 }
 
 header.topbar {
-  background: #001F3F;
+  background: $clrlime;
   padding: 10px 0;
-  border-bottom: solid 4px #fa0;
+  border-bottom: solid 4px $clrbrown;
 }
 
-header.topbar h1 {
-  background-size: 150px 75px;
-  background-position: 0 50%;
-  background-repeat: no-repeat;
-  float: left;
-  line-height: 60px;
-  margin: 0 10px 0 0;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  width: 240px;
-}
 
 header.topbar nav ul {
   float: right;
@@ -124,7 +120,7 @@ header.topbar nav ul li {
 }
 
 header.topbar nav ul li a {
-  color: #fff;
+  color: $clrbrown;
   font-size: 12px;
   margin: 0 0 0 10px;
   text-decoration: none;
@@ -135,7 +131,7 @@ header.topbar nav ul li a {
 header.topbar nav ul li a.active {
   color: #3b5998;
 }
-
+/*
 header.hero {
   background-color: #374665;
   padding: 20px 0;
@@ -151,7 +147,7 @@ header.hero hgroup h1 {
   color: #fff;
   margin: 0;
   line-height: 2em;
-}
+}*/
 
 button, a.button {
   background: #102747;

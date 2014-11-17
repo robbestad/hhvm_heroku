@@ -3,7 +3,7 @@
 Sure, I could use an MVC like Zend Framework 2 or Laravel,
 but... you don't always need the complexity.
 */
-require_once __DIR__.'/../vendor/autoload.php';
+@include __DIR__.'/../vendor/autoload.php';
 
 $page='';
 if(!empty($_GET["page"])) {
