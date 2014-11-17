@@ -75,10 +75,7 @@ git push heroku master
 ready to deploy.
 </p>
             </article>
-
-            <hr>
-            <br>
-        </article>
+       </article>
 
         
 
