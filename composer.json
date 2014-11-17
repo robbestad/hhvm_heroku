@@ -1,7 +1,6 @@
 {
   "require": {
      "hhvm": "~3.2",
-      "php": "~5.6",
-      "mailgun/mailgun-php": "~1.7.1"
+      "php": "~5.6"
     }
 }
